@@ -1,0 +1,40 @@
+.lateral-bar {
+    padding: 24px 12px;
+    height: calc(100vh - 48px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    background: var(--primary-color);
+    color: var(--bg-color);
+}
+
+.lateral-bar .group {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.lateral-bar .group .link {
+    padding: 8px;
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    border-radius: 12px;
+    transition: 200ms ease-in-out;
+    background: rgba(255,255,255,0.2);
+}
+
+.lateral-bar .group .link:hover {
+    background: rgba(255,255,255,0.25);
+    cursor: pointer;
+}
+
+.lateral-bar .group .link * {
+    font-size:1rem;
+}

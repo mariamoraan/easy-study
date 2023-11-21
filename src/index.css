@@ -1,10 +1,37 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+:root {
+  --purple-light: hsl(340, 14%, 84%);
+  --purple: hsl(340, 14%, 54%);
+  --cream: hsl(28, 42%, 96%);
+  --cream-200: hsl(28, 42%, 90%);
+  --chocolate: #877978;
+  --orange: #DDBAA7;
+  --red: #C38A77;
+  --black: #414241;
+  --black-100: hsl(0, 0%, 35%);
+  --black-200: hsl(0, 0%, 0%); 
+
+  --primary-color: var(--black);
+  --primary-color-100: var(--black-100);
+  --primary-color-200: var(--black-200);
+  --bg-color: var(--cream);
+  --bg-color-200: var(--cream-200);
+  --accent-color: var(--purple);
+  --accent-color-light: var(--purple-light);
+  --accent-color-100: var(--orange);
+  --accent-color-200: var(--red);
+}
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: var(--bg-color);
+  color: var(--primary-color);
 }
 
 code {

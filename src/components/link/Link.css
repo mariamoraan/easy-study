@@ -1,0 +1,9 @@
+.link_base {
+    color: var(--primary-color-100);
+    text-decoration: none;
+    transition: 200ms ease-in-out;
+}
+
+.link_base:hover {
+    opacity: 0.8;
+}

@@ -1,0 +1,9 @@
+.wrapper {
+    display: flex;
+}
+
+.wrapper .content-wrapper {
+    padding: 12px;
+    flex: 1;
+}
+
